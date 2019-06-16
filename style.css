@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Google Sans',sans-serif;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  top:0;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+#main{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.faq{
+  width: 60vw;
+}
